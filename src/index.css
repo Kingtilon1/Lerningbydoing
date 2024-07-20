@@ -31,7 +31,37 @@ section {
   margin-bottom: 16px;
 }
 
-.hero > p {
+.hero > h2 {
   margin-left: 36px;
   width: 330px;
+}
+
+
+
+.card {
+  width: 175px;
+  font-size: 0.75rem;
+  margin-left: 37px;
+}
+
+.card > h2{
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.swimmer {
+  width: 100%;
+}
+
+.cardstats {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  height: 14px;
+}
+
+.gray {
+  color: #918E9B
 }
