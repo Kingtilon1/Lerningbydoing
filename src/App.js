@@ -1,10 +1,11 @@
-import Greeting from "./components/Greeting";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
-      <Greeting name = 'ty'></Greeting>
-      <Greeting name = "Bobb"></Greeting>
+      <NavBar></NavBar>
+      <Hero></Hero>
     </div>
   );
 }
