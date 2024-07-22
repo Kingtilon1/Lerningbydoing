@@ -13,9 +13,13 @@ body{
   margin: 22px 30px;
 }
 
+
+
+
 section {
   padding: 20px;
 }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -31,7 +35,7 @@ section {
   margin-bottom: 16px;
 }
 
-.hero > h2 {
+.hero > p {
   margin-left: 36px;
   width: 330px;
 }
@@ -41,7 +45,8 @@ section {
 .card {
   width: 175px;
   font-size: 0.75rem;
-  margin-left: 37px;
+  margin-left: 49px;
+  white-space: nowrap;
 }
 
 .card > h2{
@@ -49,13 +54,19 @@ section {
   font-weight: normal;
 }
 
-.swimmer {
-  width: 100%;
+.image {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
 }
 
 .cardstats {
   display: flex;
   align-items: center;
+}
+
+span {
+  margin-left: 2px;
 }
 
 .star {
@@ -65,3 +76,8 @@ section {
 .gray {
   color: #918E9B
 }
+
+.cards {
+  display: flex;
+}
+

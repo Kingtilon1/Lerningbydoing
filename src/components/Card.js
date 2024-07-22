@@ -1,18 +1,16 @@
-import swimmer from '../images/swimmer.png'
 import star from '../images/Star.png'
-
-export default function Card() {
+export default function Card(props) {
     return (
         <div className = "card">
-            <img src = {swimmer} alt = "female swimmer" className = "swimmer"/>
+            <img src = {props.image} alt = "female swimmer" className = "image"/>
             <div className = "cardstats"> 
                 <span><img src = {star} alt = "star" className = "star"/></span>
-                <span>5.0</span>
-                <span className = "gray">(6) • </span>
+                <span>{props.rating}</span>
+                <span className = "gray">({props.reviewcount}) • </span>
                 <span className = "gray"> USA</span>
             </div>
-            <h2>Life lessons with Katie Zaferes</h2>
-            <p> <b>From $136</b> / person</p>
+            <h2>{props.description}</h2>
+            <p> <b>From {props.price}</b> / person</p>
         </div>
     )
 }
