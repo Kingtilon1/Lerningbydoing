@@ -12,7 +12,7 @@ export default [
             rating: 5.0,
             reviewcount: 6
         },
-        country: "Online",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -25,7 +25,7 @@ export default [
             rating: 5.0,
             reviewcount: 30
         },
-        country: "Online",
+        location: "Online",
         openSpots: 27,
     },
     {
@@ -38,7 +38,7 @@ export default [
             rating: 4.8,
             reviewcount: 2
         },
-        country: "Norway",
+        location: "Norway",
         openSpots: 3,
     }
 ]

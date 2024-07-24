@@ -11,7 +11,7 @@ function App() {
       reviewcount = {data.stats.reviewcount}
       title = {data.title}
       price = {data.price}
-      country = {data.country}
+      location = {data.location}
       openSpots = {data.openSpots}
       />
     )
