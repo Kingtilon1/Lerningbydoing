@@ -47,6 +47,9 @@ section {
   font-size: 0.75rem;
   margin-left: 49px;
   white-space: nowrap;
+  display: flex;          
+  flex-direction: column; 
+  position: relative;
 }
 
 .card > h2{
@@ -79,5 +82,18 @@ span {
 
 .cards {
   display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.status {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 

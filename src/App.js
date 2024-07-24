@@ -3,8 +3,6 @@ import Hero from "./components/Hero";
 import Card from "./components/Card";
 import info from './data.js'
 function App() {
-
-
   const carddata = info.map(data =>{
     return(
       <Card 
@@ -14,9 +12,11 @@ function App() {
       title = {data.title}
       price = {data.price}
       country = {data.country}
+      openSpots = {data.openSpots}
       />
     )
   })
+
   return (
     <div>
       <NavBar/>
